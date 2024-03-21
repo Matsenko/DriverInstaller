@@ -1,25 +1,22 @@
 using System.Diagnostics;
-
-namespace DriverInstaller;
-
-public class DriverInstaller : IDriverInstall
+namespace DriverInstaller
 {
-    public async Task<bool> InstallDriver(string driverPath)
+    public class DriverInstaller : IDriverInstall
     {
-        try
+        public async Task<bool> InstallDriver(string driverPath)
         {
-            var startInfo = new ProcessStartInfo
+            try
             {
-                FileName = "pnputil.exe",
-                Arguments = $"/add-driver \"{driverPath}\" /install",
-                UseShellExecute = false,
-                RedirectStandardOutput = true,
-                CreateNoWindow = true
-            };
+                using var process = new Process();
+                var startInfo = process.StartInfo;
+                startInfo.FileName = "pnputil.exe";
+                startInfo.Arguments = $"/add-driver \"{driverPath}\" /install";
+                startInfo.UseShellExecute = false;
+                startInfo.RedirectStandardOutput = true;
+                startInfo.CreateNoWindow = true;
 
-            using (var process = new Process { StartInfo = startInfo })
-            {
                 process.Start();
+
                 while (!process.StandardOutput.EndOfStream)
                 {
                     var line = await process.StandardOutput.ReadLineAsync();
@@ -29,11 +26,11 @@ public class DriverInstaller : IDriverInstall
                 await process.WaitForExitAsync();
                 return process.ExitCode == 0;
             }
-        }
-        catch (Exception ex)
-        {
-            Debug.WriteLine($"Error installing driver: {ex.Message}");
-            return false;
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Error installing driver: {ex.Message}");
+                return false;
+            }
         }
     }
 }
