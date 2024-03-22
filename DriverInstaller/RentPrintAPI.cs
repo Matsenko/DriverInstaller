@@ -1,6 +1,5 @@
 using System.Text.Json;
-using DriverInstaller;
-
+namespace DriverInstaller;
 public class RentPrintAPI : IRentPrintAPI
 {
     private readonly HttpClient _httpClient;
