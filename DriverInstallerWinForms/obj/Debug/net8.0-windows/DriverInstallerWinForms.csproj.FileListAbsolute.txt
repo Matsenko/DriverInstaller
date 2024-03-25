@@ -15,3 +15,7 @@ C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerW
 C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.pdb
 C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.genruntimeconfig.cache
 C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\ref\DriverInstallerWinForms.dll
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.Properties.Resources.resources
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\bin\Debug\net8.0-windows\MaterialSkin.dll
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.csproj.AssemblyReference.cache
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverIn.25BD3330.Up2Date

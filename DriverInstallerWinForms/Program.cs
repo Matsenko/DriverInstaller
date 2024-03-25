@@ -14,7 +14,7 @@ namespace DriverInstallerWinForms
             WindowsPrincipal principal = new WindowsPrincipal(identity);
             bool isAdmin = principal.IsInRole(WindowsBuiltInRole.Administrator);
             ApplicationConfiguration.Initialize();
-            if (isAdmin)
+            if (!isAdmin)
             {
                 Application.Run(new Form1());
             }
