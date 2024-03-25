@@ -51,7 +51,15 @@
             button.Size = new Size(100, 30);
             button.Location = new Point((this.ClientSize.Width - button.Width) / 2, (this.ClientSize.Height - button.Height) / 2 + label.Height + additionalLabel.Height + phoneNumberLabel.Height + 50); // Располагаем кнопку внизу по центру, ближе к тексту
             this.Controls.Add(button);
+            button.Click += (sender, e) =>
+            {
 
+                Form2 form2 = new Form2();
+
+                form2.Show();
+
+                this.Hide();
+            };
             Label copyrightLabel = new Label();
             copyrightLabel.Text = "Copyright(c) 2024 - We rent Copiers";
             copyrightLabel.AutoSize = true;
