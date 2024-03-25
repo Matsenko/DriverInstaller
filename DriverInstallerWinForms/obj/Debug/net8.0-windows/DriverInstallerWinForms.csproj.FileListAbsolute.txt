@@ -1,0 +1,17 @@
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\bin\Debug\net8.0-windows\DriverInstallerWinForms.exe
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\bin\Debug\net8.0-windows\DriverInstallerWinForms.deps.json
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\bin\Debug\net8.0-windows\DriverInstallerWinForms.runtimeconfig.json
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\bin\Debug\net8.0-windows\DriverInstallerWinForms.dll
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\bin\Debug\net8.0-windows\DriverInstallerWinForms.pdb
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.Form1.resources
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.csproj.GenerateResource.cache
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.AssemblyInfoInputs.cache
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.AssemblyInfo.cs
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.csproj.CoreCompileInputs.cache
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.sourcelink.json
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.dll
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\refint\DriverInstallerWinForms.dll
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.pdb
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.genruntimeconfig.cache
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\ref\DriverInstallerWinForms.dll
