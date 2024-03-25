@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverInstaller", "DriverInstaller\DriverInstaller.csproj", "{C01FBF93-F43D-48C9-961B-E07870F8E3B9}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DriverInstaller", "DriverInstaller\DriverInstaller.csproj", "{C01FBF93-F43D-48C9-961B-E07870F8E3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverInstallerWinForms", "DriverInstallerWinForms\DriverInstallerWinForms.csproj", "{7CBC85BE-0C12-42E7-9F4C-B7C8D7F281B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,12 @@ Global
 		{C01FBF93-F43D-48C9-961B-E07870F8E3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C01FBF93-F43D-48C9-961B-E07870F8E3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C01FBF93-F43D-48C9-961B-E07870F8E3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CBC85BE-0C12-42E7-9F4C-B7C8D7F281B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBC85BE-0C12-42E7-9F4C-B7C8D7F281B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBC85BE-0C12-42E7-9F4C-B7C8D7F281B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBC85BE-0C12-42E7-9F4C-B7C8D7F281B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
