@@ -22,3 +22,5 @@ C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerW
 C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.Form2.resources
 C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.Form3.resources
 C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\obj\Debug\net8.0-windows\DriverInstallerWinForms.Form4.resources
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\bin\Debug\net8.0-windows\DriverInstaller.dll
+C:\Users\vovam\OneDrive\Рабочий стол\DriverInstaller\DriverInstallerWinForms\bin\Debug\net8.0-windows\DriverInstaller.pdb

@@ -10,6 +10,16 @@
         "runtime": {
           "lib/MaterialSkin.dll": {}
         }
+      },
+      "DriverInstaller/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/DriverInstaller.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DriverInstaller.dll": {}
+        }
       }
     }
   },
@@ -25,10 +35,16 @@
         "materialskin.0.2.1.nupkg.sha512",
         "materialskin.nuspec"
       ]
+    },
+    "DriverInstaller/1.0.0": {
+      "type": "project",
+      "path": "../DriverInstaller/DriverInstaller.csproj",
+      "msbuildProject": "../DriverInstaller/DriverInstaller.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "DriverInstaller >= 1.0.0",
       "MaterialSkin >= 0.2.1"
     ]
   },
@@ -64,7 +80,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\DriverInstaller\\DriverInstaller\\DriverInstaller.csproj": {
+              "projectPath": "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\DriverInstaller\\DriverInstaller\\DriverInstaller.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

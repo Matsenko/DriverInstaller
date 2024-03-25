@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DriverInstaller;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,11 +18,23 @@ namespace DriverInstallerWinForms
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
-            form3.Show();
-            this.Hide();
+            try
+            {
+                string projectName = textBox1.Text;
+                string accessCode = textBox2.Text;
+                RentPrintAPI rentPrintAPI = new RentPrintAPI("https://rentprint.com");
+                var devices = await rentPrintAPI.GetDeviceInfo(projectName, accessCode);
+                Form3 form3 = new Form3();
+                form3.Show();
+                this.Hide();
+            }
+            catch (Exception ex)
+            {
+ 
+                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
