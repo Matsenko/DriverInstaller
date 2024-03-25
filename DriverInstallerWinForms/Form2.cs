@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -24,9 +25,10 @@ namespace DriverInstallerWinForms
             {
                 string projectName = textBox1.Text;
                 string accessCode = textBox2.Text;
-                RentPrintAPI rentPrintAPI = new RentPrintAPI("https://rentprint.com");
+                string baseUrl = ConfigurationManager.AppSettings["BaseUrl"];
+                RentPrintAPI rentPrintAPI = new RentPrintAPI(baseUrl);
                 var devices = await rentPrintAPI.GetDeviceInfo(projectName, accessCode);
-                Form3 form3 = new Form3();
+                Form3 form3 = new Form3(devices);
                 form3.Show();
                 this.Hide();
             }
