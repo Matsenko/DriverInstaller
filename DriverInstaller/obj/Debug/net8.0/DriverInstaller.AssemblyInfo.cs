@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DriverInstaller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b241ff151a2497eaaa89b8fb6516d753407b322e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66f9d11dae3095784cf560eaabf21deac234df73")]
 [assembly: System.Reflection.AssemblyProductAttribute("DriverInstaller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DriverInstaller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

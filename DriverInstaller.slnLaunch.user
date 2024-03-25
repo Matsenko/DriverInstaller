@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "DriverInstallerWinForms\\DriverInstallerWinForms.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "TestServer\\TestServer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
