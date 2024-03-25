@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DriverInstallerWinForms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88ddcb10189b9fb1829598bd7acd2d024c6d267f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b241ff151a2497eaaa89b8fb6516d753407b322e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DriverInstallerWinForms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DriverInstallerWinForms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

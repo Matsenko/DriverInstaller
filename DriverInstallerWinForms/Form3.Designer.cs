@@ -70,7 +70,6 @@
             // checkedListBox1
             // 
             checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Items.AddRange(new object[] { "Mofongo", "Helix", "Draper" });
             checkedListBox1.Location = new Point(340, 257);
             checkedListBox1.Name = "checkedListBox1";
             checkedListBox1.Size = new Size(150, 70);
