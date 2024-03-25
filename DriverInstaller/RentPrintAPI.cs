@@ -13,7 +13,7 @@ public class RentPrintAPI : IRentPrintAPI
 
     public async Task<IEnumerable<DeviceInfo>> GetDeviceInfo(string projectName, string token)
     {
-        var url = $"{_baseUrl}/api/devices?project={projectName}&token={token}";
+        var url = $"{_baseUrl}/api/devices?projectName={projectName}&token={token}";
 
         var response = await _httpClient.GetAsync(url);
         response.EnsureSuccessStatusCode();
