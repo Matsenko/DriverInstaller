@@ -15,7 +15,7 @@ namespace DriverInstallerWinForms
     public partial class Form3 : Form
     {
         private IEnumerable<DeviceInfo> _devices;
-
+        private List<string> _InstalledDevices;
         public Form3(IEnumerable<DeviceInfo> devices)
         {
             InitializeComponent();
@@ -37,6 +37,7 @@ namespace DriverInstallerWinForms
         {
 
         }
+        
         private async void checkedListBox1_ItemCheck(object sender, ItemCheckEventArgs e)
         {
             if (e.NewValue == CheckState.Checked)
@@ -49,6 +50,7 @@ namespace DriverInstallerWinForms
                 string driverString = Convert.ToBase64String(driverBytes);
                 DriverInstaller.DriverInstaller driverInstaller = new DriverInstaller.DriverInstaller();
                 driverInstaller.InstallDriver(driverString);
+                _InstalledDevices.Add(selectedDevice);
             }
         }
         private Task<DeviceInfo> GetDeviceInfoByName(string deviceName)
@@ -75,7 +77,7 @@ namespace DriverInstallerWinForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            Form4 form4 = new Form4(_InstalledDevices);
             form4.Show();
             this.Hide();
         }

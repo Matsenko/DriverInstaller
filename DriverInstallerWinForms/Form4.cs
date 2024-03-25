@@ -12,9 +12,20 @@ namespace DriverInstallerWinForms
 {
     public partial class Form4 : Form
     {
-        public Form4()
+        private List<string> _InstalledDevices;
+
+        public Form4(List<string> installedDevices)
         {
             InitializeComponent();
+            _InstalledDevices = installedDevices;
+        }
+        private void Form4_Load(object sender, EventArgs e)
+        {
+            checkedListBox1.Items.AddRange(_InstalledDevices.ToArray());
+        }
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

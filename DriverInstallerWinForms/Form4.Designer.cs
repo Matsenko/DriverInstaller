@@ -69,11 +69,11 @@
             // checkedListBox1
             // 
             checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Items.AddRange(new object[] { "Mofongo", "Helix", "Draper" });
             checkedListBox1.Location = new Point(329, 208);
             checkedListBox1.Name = "checkedListBox1";
             checkedListBox1.Size = new Size(150, 114);
             checkedListBox1.TabIndex = 5;
+            checkedListBox1.SelectedIndexChanged += checkedListBox1_SelectedIndexChanged;
             // 
             // label3
             // 
